@@ -45,4 +45,27 @@ if (resp == "1")
 else if (resp == "2")
 {
     // TODO: parse data file
-}
+     if (!File.Exists("data.txt"))
+            {
+                Console.WriteLine("Data file not found!");
+                return;
+            }
+            
+            string[] lines = File.ReadAllLines("data.txt");
+            
+            foreach (string line in lines)
+            {
+                string[] parts = line.Split(',');
+                DateTime weekStart = DateTime.Parse(parts[0]);
+                int[] sleepHours = parts[1].Split('|').Select(int.Parse).ToArray();
+                int totalHours = sleepHours.Sum();
+                double avgHours = sleepHours.Average();
+                
+                Console.WriteLine($"Week of {weekStart:MMM, dd, yyyy}");
+                Console.WriteLine(" Su Mo Tu We Th Fr Sa Tot Avg");
+                Console.WriteLine(" -- -- -- -- -- -- -- --- ---");
+                Console.WriteLine($" {string.Join(" ", sleepHours.Select(h => h.ToString().PadLeft(2)))} {totalHours,3} {avgHours,3:F1}");
+                Console.WriteLine();
+            }
+        }
+    

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emichel\\Sleep data\\Sleep data.csproj": {}
+    "C:\\Users\\Elijah\\OneDrive\\Documents\\GitHub\\Week-3-Assignment-\\Sleep data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emichel\\Sleep data\\Sleep data.csproj": {
+    "C:\\Users\\Elijah\\OneDrive\\Documents\\GitHub\\Week-3-Assignment-\\Sleep data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emichel\\Sleep data\\Sleep data.csproj",
+        "projectUniqueName": "C:\\Users\\Elijah\\OneDrive\\Documents\\GitHub\\Week-3-Assignment-\\Sleep data.csproj",
         "projectName": "Sleep data",
-        "projectPath": "C:\\Users\\emichel\\Sleep data\\Sleep data.csproj",
-        "packagesPath": "C:\\Users\\emichel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emichel\\Sleep data\\obj\\",
+        "projectPath": "C:\\Users\\Elijah\\OneDrive\\Documents\\GitHub\\Week-3-Assignment-\\Sleep data.csproj",
+        "packagesPath": "C:\\Users\\Elijah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Elijah\\OneDrive\\Documents\\GitHub\\Week-3-Assignment-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emichel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Elijah\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
